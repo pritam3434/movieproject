@@ -1,0 +1,52 @@
+*{
+    margin-top:0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+body{
+    background:url("image/lis.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    text-align: center;
+    font-size: xx-large;
+    color:blue;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: yellow;
+}
+
+.jumbotron>a{
+    color:green;
+    font-size: x-large;
+    text-decoration: none;
+    display: block;
+    
+    padding: 20px,20px,20px;
+}
+.jumbotron>p{
+    
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+img{
+    height: 250px;
+    width: 250px;
+    margin-left: 50px;
+}
+p{
+    text-align: center;
+    font-size:x-large;
+}
+
+@media (min-device-width:600px) {
+    img[data-src-600px] {
+        content: attr(data-src-600px, url);
+    }
+}
+
+@media (min-device-width:800px) {
+    img[data-src-800px] {
+        content: attr(data-src-800px, url);
+    }
+}

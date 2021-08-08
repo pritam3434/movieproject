@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>movie.com</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'CSS/style.css' %}">
+</head>
+<body>
+<nav class="navbar">
+
+    <h1>WELCOME TO MOVIE INFORMATION PORTAL</h1>
+    </nav>
+<p>continuous update every hour!!!</p>
+
+<img src="{% static 'image/mirzapur.jpg'%}">
+<img src="{% static 'image/aphran.jpg'%}">
+<img src="{% static 'image/love jaction.jpg'%}">
+<img src="{% static 'image/kgf.jpg'%}">
+
+
+
+    <div class="container" align="center"> 
+ <div class="jumbotron">
+ 
+ <h2>LINKS Here!!</h2>
+ 
+ <a class="btn btn-primary btn-lg" href="/addmovie" role="button"> Add Movie</a>
+ <a class="btn btn-primary btn-lg"  href="/listmovies" role="button">List Movies</a>
+
+ <h2>About</h2>
+ <p> This website will provide information about the movies/webseries.You can visit here for latest
+ movies and webseries information.
+ </p>
+ 
+ </div>
+ </div>
+              <p id="txt5">Connect With US</p> <i class="fab fa-facebook-square social fa-2x"></i> <i class="fab fa-linkedin social fa-2x"></i> <i class="fab fa-twitter-square social fa-2x"></i>
+              <p>email:pritam20piyush@gmail.com</p>
+             
+         
+         <div id="part2">
+             <p id="txt6"><i class="material-icons tiny"> copyright</i> 2021 Pritam Singh - All right reserved</p>
+         </div>
+     
+</body>
+</html>

@@ -1,0 +1,17 @@
+.container{
+    text-align: center;
+
+}
+.bod{
+    background-image: 
+    url("add.jpg");
+    font-size: x-large;
+    background-repeat: no-repeat;
+    color:red;
+}
+#kob{
+    background-color:red;
+    coloR:black;
+    font-size: x-large;
+    mask-border-outset: 20px;
+}

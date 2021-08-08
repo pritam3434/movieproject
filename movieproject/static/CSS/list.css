@@ -1,0 +1,16 @@
+body{
+    background-image: 
+    url("add.jpg");
+    background-color: lightblue;
+
+
+}
+.jomb{
+    text-align: center;
+    color:black;
+    margin-left:150px;
+    font-size:x-large;
+    background-color: lightgray;
+    border: 2rem;
+    
+}
